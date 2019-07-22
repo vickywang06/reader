@@ -1,0 +1,111 @@
+.navbar-default{
+    background:white;
+    border:0;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.navbar-orange {
+    background-color: rgba(255,160,0,1);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+    color:white;
+}
+.btn-orange{
+    background:#FFA000;color:white;
+}
+.btn-orange:hover{
+    opacity: 0.9;color:white;
+    transition:all 0.5s;
+}
+/*手机*/
+@media screen and (max-width:768px) {
+    .mynav{
+        list-style-type: none;font-size:1em;
+    }
+    .mynav li{
+        height:40px;line-height:40px;float:left;margin-right:0.8em;cursor: pointer;padding:0 5px;
+    }
+    .mynav li:hover{
+        background: white;color:#FFA000;border-top:3px solid #FFA000;transition:all 0.2s;
+    }
+    .mynav li.active{
+        background: white;color:#FFA000;border-top:3px solid #FFA000;
+    }
+    .author{
+        display: block;margin-top:10px;
+    }
+    .desc320{
+            display: none;
+    }
+    .desc120{
+        display: block;
+    }
+    .left-book-img{
+        min-height:110px;
+    }
+}
+/*PC*/
+@media screen and (min-width:768px) {
+    .mynav{
+        list-style-type: none;font-size:1.2em;
+    }
+    .mynav li{
+        height:50px;line-height:50px;float:left;margin-right:2em;cursor: pointer;padding:0 10px;
+    }
+    .mynav li:hover{
+        background: white;color:#FFA000;border-top:3px solid #FFA000;transition:all 0.2s;
+    }
+    .mynav li.active{
+        background: white;color:#FFA000;border-top:3px solid #FFA000;
+    }
+    .author{
+        margin-left:20px;
+    }
+    .desc320{
+        display: block;
+    }
+    .desc120{
+        display: none;
+    }
+}
+.mg20{
+    margin-top:20px;
+}
+.com-ul{
+    padding: 0;list-style-type: none;
+}
+.com-ul li{
+    line-height: 30px;margin-bottom:5px;cursor: pointer;
+}
+.com-ul li span{
+    width:20px;height:20px;line-height:20px;display: inline-block;margin-right:5px;text-align: center;background: #e5e5e5;
+}
+.com-ul li span.highlight{
+    background: #FFA000;color:white;
+}
+.tright{
+    text-align: right;margin-right:10px;
+}
+.com-a{
+    cursor: pointer;
+}
+.com-h390{
+    min-height:390px;
+}
+.catediv{
+    width:100%;line-height: 30px;padding:10px 0 10px 10px;border:1px solid #eee;background:white;
+}
+.catediv span{
+    width:72px;display: inline-block;margin-right:0px;color:#FFA000;text-align: center;
+}
+.ab-bottom{
+   position: absolute;bottom:-10px;font-size:12px;
+}
+.active{
+    color:#FFA000;
+}
+.ellips{
+    white-space: nowrap;overflow: hidden;text-overflow: ellipsis;
+}
+/*.navbar-default .navbar-brand,.navbar-default .navbar-nav>li>a{
+    color:white;
+}*/
